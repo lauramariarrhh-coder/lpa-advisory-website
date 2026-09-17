@@ -3,36 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="LPA Advisory - Recursos Humanos, Relaciones Laborales y HR & AI Strategy. Orientación para empleados y empresas en el Reino Unido.">
-  <meta name="keywords" content="Recursos Humanos, HR, Relaciones Laborales, Employment Tribunal, Coaching Profesional, HR Strategy, AI en RR.HH.">
-  <meta property="og:title" content="LPA Advisory | HR & AI Strategy">
+  <title>LPA Advisory | HR &amp; AI Strategy</title>
+  <meta name="description" content="LPA Advisory: personas, estrategia y trabajo con propósito y dignidad. Orientación para empleados y empresas en Recursos Humanos y relaciones laborales.">
+  <meta name="author" content="LPA Advisory">
+  <meta name="theme-color" content="#17181c">
+  <meta property="og:title" content="LPA Advisory | HR &amp; AI Strategy">
   <meta property="og:description" content="Personas, estrategia y trabajo con propósito y dignidad.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/logo.png">
-  <meta name="theme-color" content="#1a2845">
-  <meta name="author" content="LPA Advisory">
-  
-  <title>LPA Advisory | HR & AI Strategy | Recursos Humanos y Relaciones Laborales</title>
-  
-  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
   <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
-  
-  <!-- HEADER -->
+
   <header>
     <div class="header-content">
       <a href="index.html" class="logo" aria-label="LPA Advisory - Inicio">
-        <img src="/assets/logo.png" alt="LPA Advisory Logo">
-        <div class="logo-text">
-          <div class="logo-text-main">LPA</div>
-          <div class="logo-text-sub">ADVISORY</div>
-        </div>
+        <img src="/assets/logo.png" alt="LPA Advisory">
       </a>
-      
-      <nav>
+      <nav id="main-navigation" aria-label="Navegación principal">
         <a href="index.html">INICIO</a>
         <a href="empleados.html">EMPLEADOS</a>
         <a href="empresas.html">EMPRESAS</a>
@@ -40,152 +30,78 @@
         <a href="sobre.html">SOBRE LPA ADVISORY</a>
         <a href="contacto.html">CONTACTO</a>
       </nav>
-      
-      <button class="cta-button-header" aria-label="Agendar consulta">AGENDAR CONSULTA</button>
-      
-      <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
+      <a class="cta-button-header" href="contacto.html">AGENDAR CONSULTA</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <!-- MAIN CONTENT -->
   <main id="main-content">
-    <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="hero-container">
         <div class="hero-content">
-          <h1>Personas, estrategia y trabajo con propósito y dignidad.</h1>
-          <p>En LPA Advisory ofrecemos orientación en Recursos Humanos, relaciones laborales y estrategia de personas, ayudando tanto a trabajadores como a organizaciones a afrontar situaciones laborales y profesionales con mayor claridad, preparación y propósito.</p>
-          
-          <div class="two-paths">
-            <div class="path-card">
-              <h3>SOY EMPLEADO/A</h3>
-              <p>Entiende tu situación, organiza la información y conoce tus opciones.</p>
-              <a href="empleados.html">Explorar servicios →</a>
-            </div>
-            
-            <div class="path-card">
-              <h3>SOY EMPRESA</h3>
+          <p class="eyebrow">HR &amp; AI STRATEGY</p>
+          <h1 id="hero-title">Personas, estrategia y trabajo con propósito y dignidad.</h1>
+          <p>Orientación en Recursos Humanos, relaciones laborales y estrategia de personas para empleados y organizaciones que necesitan claridad, estructura y criterio.</p>
+          <div class="two-paths" aria-label="Elige tu ruta">
+            <article class="path-card">
+              <h2>SOY EMPLEADO/A</h2>
+              <p>Entiende tu situación, organiza la información y conoce las opciones disponibles.</p>
+              <a href="empleados.html">Explorar servicios <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="path-card">
+              <h2>SOY EMPRESA</h2>
               <p>Mejora tus procesos de personas, relaciones laborales y estrategia de RR.HH.</p>
-              <a href="empresas.html">Explorar servicios →</a>
-            </div>
+              <a href="empresas.html">Explorar servicios <span aria-hidden="true">→</span></a>
+            </article>
           </div>
         </div>
-        
-        <div class="hero-visual">
-          <div class="hero-visual-placeholder">
-            <p>Imagen profesional workspace</p>
-            <p style="font-size: 0.8rem; margin-top: 0.5rem;">Insertar imagen en: /assets/images/hero.jpg</p>
-          </div>
-        </div>
+        <div class="hero-visual" aria-hidden="true"><div class="hero-mark">LPA</div></div>
       </div>
     </section>
 
-    <!-- INTRODUCTION SECTION -->
-    <section style="background-color: #f5f5f2;">
-      <div class="container">
-        <div class="section-intro">
-          <h2>De una situación compleja a una estrategia clara.</h2>
-          <p>En LPA Advisory creemos que las situaciones laborales complejas requieren algo más que información: requieren claridad, estructura y estrategia.</p>
-          <p>Trabajamos con empleados y organizaciones para transformar situaciones complejas en planes de acción claros y estratégicos.</p>
-        </div>
+    <section class="section-intro-section">
+      <div class="container-narrow section-intro">
+        <p class="eyebrow">NUESTRO ENFOQUE</p>
+        <h2>De una situación compleja a una estrategia clara.</h2>
+        <p>Las situaciones laborales complejas requieren algo más que información. Requieren claridad para entender, estructura para organizar y estrategia para actuar.</p>
+        <p>Trabajamos con empleados y organizaciones para convertir los retos laborales y profesionales en próximos pasos comprensibles y estructurados.</p>
       </div>
     </section>
 
-    <!-- DIFFERENTIATION SECTION -->
-    <section>
+    <section aria-labelledby="difference-title">
       <div class="container">
-        <h2 style="text-align: center; margin-bottom: 3rem;">¿Qué nos diferencia?</h2>
-        
+        <div class="section-heading"><p class="eyebrow">LPA ADVISORY</p><h2 id="difference-title">Claridad con criterio.</h2></div>
         <div class="values-grid">
-          <div class="value">
-            <h4>CLARIDAD</h4>
-            <p>Convertimos situaciones complejas en información comprensible y accesible.</p>
-          </div>
-          
-          <div class="value">
-            <h4>ESTRATEGIA</h4>
-            <p>No nos limitamos a identificar el problema; ayudamos a estructurar los siguientes pasos.</p>
-          </div>
-          
-          <div class="value">
-            <h4>PERSONAS</h4>
-            <p>Ponemos el contexto humano en el centro de nuestro análisis y recomendaciones.</p>
-          </div>
-          
-          <div class="value">
-            <h4>PROPÓSITO</h4>
-            <p>Creemos en organizaciones y relaciones laborales basadas en respeto, dignidad y responsabilidad.</p>
-          </div>
+          <article class="value"><h3>CLARIDAD</h3><p>Convertimos situaciones complejas en información comprensible y ordenada.</p></article>
+          <article class="value"><h3>ESTRATEGIA</h3><p>Ayudamos a estructurar los siguientes pasos según el contexto y los objetivos de cada situación.</p></article>
+          <article class="value"><h3>PERSONAS</h3><p>Ponemos el contexto humano en el centro del análisis y de la conversación.</p></article>
+          <article class="value"><h3>PROPÓSITO</h3><p>Creemos en relaciones laborales basadas en respeto, dignidad y responsabilidad.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- CTA SECTION -->
-    <section style="background: linear-gradient(135deg, #1a2845, #4a2465); color: #fafaf7; text-align: center;">
-      <div class="container-narrow">
-        <h2 style="color: #fafaf7;">¿Listo para transformar tu situación?</h2>
-        <p style="color: rgba(250, 250, 247, 0.9); font-size: 1.05rem; margin-bottom: 2rem;">Agenda una consulta inicial gratuita con nuestro equipo.</p>
-        <a href="contacto.html" class="btn btn-primary" style="background-color: #fafaf7; color: #1a2845;">AGENDAR CONSULTA</a>
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container-narrow text-center">
+        <p class="eyebrow">¿HABLAMOS?</p>
+        <h2 id="cta-title">Un siguiente paso más claro empieza por entender la situación.</h2>
+        <p>Cuéntanos brevemente tu necesidad y te explicaremos cómo podemos orientarte.</p>
+        <a href="contacto.html" class="btn btn-primary">CONTACTAR CON LPA ADVISORY</a>
       </div>
     </section>
   </main>
 
-  <!-- FOOTER -->
-  <footer>
+  <footer class="footer">
     <div class="footer-content">
-      <div class="footer-section">
-        <h4>LPA ADVISORY</h4>
-        <p style="color: rgba(250, 250, 247, 0.8); font-size: 0.9rem;">HR & AI STRATEGY</p>
-        <p style="font-size: 0.85rem; color: rgba(250, 250, 247, 0.7); margin-top: 0.5rem;">PERSONAS | ESTRATEGIA | TRABAJO CON PROPÓSITO Y DIGNIDAD</p>
-      </div>
-      
-      <div class="footer-section">
-        <h4>Navegación</h4>
-        <a href="index.html">Inicio</a>
-        <a href="empleados.html">Empleados</a>
-        <a href="empresas.html">Empresas</a>
-        <a href="metodologia.html">Metodología</a>
-        <a href="sobre.html">Sobre LPA Advisory</a>
-        <a href="contacto.html">Contacto</a>
-      </div>
-      
-      <div class="footer-section">
-        <h4>Contacto</h4>
-        <div class="footer-contact">
-          <p><strong>Email:</strong></p>
-          <a href="mailto:employeeadvisorlondon@gmail.com">employeeadvisorlondon@gmail.com</a>
-          
-          <p style="margin-top: 1rem;"><strong>Teléfono:</strong></p>
-          <a href="tel:+447776618634">07776 618634</a>
-          
-          <p style="margin-top: 1rem;"><strong>Ubicación:</strong></p>
-          <p>Reino Unido | Online</p>
-        </div>
-      </div>
+      <div class="footer-section"><h2>LPA ADVISORY</h2><p>HR &amp; AI STRATEGY</p><p>Personas, estrategia y trabajo con propósito y dignidad.</p></div>
+      <div class="footer-section"><h2>Navegación</h2><a href="index.html">Inicio</a><a href="empleados.html">Empleados</a><a href="empresas.html">Empresas</a><a href="metodologia.html">Metodología</a><a href="sobre.html">Sobre LPA Advisory</a><a href="contacto.html">Contacto</a></div>
+      <div class="footer-section"><h2>Contacto</h2><a href="mailto:employeeadvisorlondon@gmail.com">employeeadvisorlondon@gmail.com</a><a href="tel:+447776618634">07776 618634</a><p>Reino Unido | Online</p></div>
     </div>
-    
-    <div class="footer-divider">
-      <div class="footer-bottom">
-        <p>&copy; 2026 LPA Advisory. Todos los derechos reservados.</p>
-        <div class="footer-legal">
-          <a href="aviso-legal.html">Aviso Legal</a>
-          <a href="privacidad.html">Política de Privacidad</a>
-          <a href="cookies.html">Cookies</a>
-        </div>
-      </div>
-    </div>
+    <div class="footer-divider"><div class="footer-bottom"><p>&copy; 2026 LPA Advisory. Todos los derechos reservados.</p><div class="footer-legal"><a href="aviso-legal.html">Aviso Legal</a><a href="cookies.html">Cookies</a></div></div></div>
   </footer>
 
-  <!-- DISCLAIMER -->
-  <div class="disclaimer">
-    <p><strong>Aviso Legal:</strong> LPA Advisory no es un despacho de abogados y no proporciona representación legal. Ofrecemos orientación en Recursos Humanos, relaciones laborales, preparación y organización de situaciones laborales y profesionales. Este contenido tiene carácter informativo y no constituye asesoramiento jurídico.</p>
-  </div>
-
+  <div class="disclaimer"><p><strong>Aviso legal:</strong> LPA Advisory no es un despacho de abogados y no proporciona representación legal. Ofrecemos orientación en Recursos Humanos, relaciones laborales y estrategia de personas. La información publicada es orientativa y no constituye asesoramiento jurídico.</p></div>
   <script src="/js/navigation.js"></script>
-  <script src="/js/forms.js"></script>
 </body>
 </html>
